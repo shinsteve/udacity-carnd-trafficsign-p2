@@ -7,33 +7,34 @@
 ---
 
 ## MEMO
-* validation accuracy
-** Initial LeNet : 0.872
-** Grayscale : 0.872
-** 0-1 normalize : 0.887
-** 0 mean scale : 0.926
+- validation accuracy
+  - Initial LeNet : 0.872
+  - Grayscale : 0.872
+  - 0-1 normalize : 0.887
+  - 0 mean scale : 0.926
 
-* ToDo
-** Improvement
-*** Grayscale
-*** Normalize
-*** Contrast adjustment ( cv2.equalizeHist() )
-*** Dataset distribution
-**** Visualize failure class
-*** Augment data (rotate, shift, noise -> random)
-*** batch normalization / L2 normalization
-*** Dropout
-*** Hyper parameter tuning
+- ToDo
+  - Improve accuracy
+    - Grayscale
+    - Normalize
+    - Contrast adjustment ( cv2.equalizeHist() )
+    - Dataset distribution
+      - Visualize failure class
+    - Augment data (rotate, zoom, shift, noise -> random)
+    - batch normalization / L2 normalization
+    - Dropout
+    - Hyper parameter tuning
+  - Investigate image preprocess result    
 
 **Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
+- Load the data set (see below for links to the project data set)
+- Explore, summarize and visualize the data set
+- Design, train and test a model architecture
+- Use the model to make predictions on new images
+- Analyze the softmax probabilities of the new images
+- Summarize the results with a written report
 
 
 [//]: # (Image References)
