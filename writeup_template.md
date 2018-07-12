@@ -11,20 +11,14 @@
   - Initial LeNet : 0.872
   - Grayscale : 0.872
   - 0-1 normalize : 0.887
-  - 0 mean scale : 0.926
+  - -0.5-0.5 normalize : 0.892
+  - norm + equalizeHist : 0.926
+  - norm + 0 mean scale : 0.926
+  - norm + equalizeHist + 0 mean scale : 0.931
 
 - ToDo
   - Improve accuracy
-    - Grayscale
-    - Normalize
-    - Contrast adjustment ( cv2.equalizeHist() )
-    - Dataset distribution
-      - Visualize failure class
-    - Augment data (rotate, zoom, shift, noise -> random)
-    - batch normalization / L2 normalization
-    - Dropout
     - Hyper parameter tuning
-  - Investigate image preprocess result    
 
 **Build a Traffic Sign Recognition Project**
 
