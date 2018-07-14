@@ -16,6 +16,15 @@
   - norm + 0 mean scale : 0.926
   - norm + equalizeHist + 0 mean scale : 0.931
 
+`
+EPOCHS = 13
+BATCH_SIZE = 128
+rate = 0.001
+KEEP_PROB = 0.67
+Accuracy: Train = 0.972,   Validation = 0.970
+Test Accuracy = 0.936
+`
+
 - ToDo
   - Improve accuracy
     - Hyper parameter tuning
