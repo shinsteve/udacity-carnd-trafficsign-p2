@@ -31,9 +31,9 @@ The goals / steps of this project are the following:
 - Analyze the softmax probabilities of the new images
 - Summarize the results with a written report
 
+TODO update image
 
 [//]: # (Image References)
-TODO update image
 [image1]: ./writeup_images/histo_dataset.jpg "Visualization"
 [image2]: ./writeup_images/image_samples.jpg "Visualization"
 [image3]: ./writeup_images/prepro_original.jpg "Preprocessing"
@@ -154,11 +154,12 @@ My final model consisted of the following layers:
 To train the model, I used an "Adam" optimizer to minimize the loss that is defined as the mean of cross entropy of output logits.
 
 The value of hyper parameters are shown below.
-`
-EPOCHS = 13
-BATCH_SIZE = 128
-Learning rate = 0.001
-`
+
+| Parameter | Value |
+|:---------:|:-----:|
+| EPOCHS    | 13    |
+| BATCH_SIZE | 128  |
+| Learning rate | 0.001 |
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
